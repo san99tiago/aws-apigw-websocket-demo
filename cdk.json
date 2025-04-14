@@ -1,0 +1,25 @@
+{
+  "app": "make clean && make install && python3 cdk/app.py",
+  "context": {
+    "main_resources_name": "aws-apigw-websocket-demo",
+    "tags": {
+      "Owner": "Santiago Garcia Arango",
+      "Source": "https://github.com/san99tiago/aws-apigw-websocket-demo",
+      "Usage": "Simple Websocket demo in AWS with API Gateway and Lambdas"
+    },
+    "app_config": {
+      "prod": {
+        "deployment_environment": "prod",
+        "log_level": "DEBUG",
+        "api_gw_name": "demo-api-prod",
+        "api_key_name_1": "demo-key-prod-1",
+        "api_key_name_2": "demo-key-prod-2",
+        "api_key_name_3": "demo-key-prod-3",
+        "api_usage_plan_name": "demo-api-usage-plan-prod",
+        "api_usage_plan_throttle_rate_limit": 10,
+        "api_usage_plan_throttle_burst_limit": 10,
+        "api_usage_plan_quota_limit_day": 100
+      }
+    }
+  }
+}
