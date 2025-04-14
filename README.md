@@ -29,4 +29,4 @@ Thanks for all the great open-source contributors building the future out there!
 
 ## LICENSE
 
-Copyright 2024 Santiago Garcia Arango.
+Copyright 2025 Santiago Garcia Arango.
